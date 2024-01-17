@@ -91,3 +91,47 @@ img{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+@media (max-width:480px) {
+    img{
+        margin-right: 30px;
+        width: 150px;
+        height: 150px;
+        
+    }
+    .container{
+        float: left;
+        width: 300px;
+    }
+    h1{
+        font-size: small;
+    }
+    .lead{
+        font-size: small;
+    }
+    #home{
+    
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #about{
+    
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #skills{
+       
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #projects{
+       
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #contact{
+        
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+}
