@@ -1,6 +1,18 @@
-img{
-    border-radius: 47% 53% 69% 31% / 20% 32% 68% 80%;
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
+img{
+    border-radius: 47% 53% 69% 31% / 20% 32% 68% 80%; 
+    display: flex; 
+    float: right;
+    max-width: 350px;
+    max-height: 350px;
+    
+    
+}   
+
 #home_button{
     border-radius: 0;
     margin: 5px;
@@ -33,11 +45,6 @@ img{
     width: 80px;
     border: 0;
 }
-.navbar{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 #home_button:hover {
     background-color: gray;   
 }
@@ -58,4 +65,29 @@ img{
     float: left;
     margin-left: 57px;
     width: 100%;
+}
+#home{
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#about{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#skills{
+   
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#projects{
+   
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#contact{
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
