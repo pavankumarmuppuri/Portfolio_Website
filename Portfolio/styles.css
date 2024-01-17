@@ -53,3 +53,9 @@ img{
 #contact_button:hover {
     background-color: gray;
 }
+.container{
+
+    float: left;
+    margin-left: 57px;
+    width: 100%;
+}
