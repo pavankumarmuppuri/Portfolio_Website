@@ -93,9 +93,11 @@ img{
 }
 @media (max-width:320px) {
     img{
-        margin-right: 30px;
         width: 150px;
         height: 150px;
+        position: fixed;
+        top: 480px;
+        left: 130px;
         
     }
     .container{
